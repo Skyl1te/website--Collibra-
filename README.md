@@ -12,8 +12,8 @@
 <img src="https://img.shields.io/badge/-Bootstrap-blueviolet" height="30px"/>
 </p> 
 <h1>Contents</h1>
-The repository includes the following directories:
-
+<h3>The repository includes the following directories:</h3>
+<br>
 <p><b>css</b>: contains the CSS stylesheets used to style the website</p>
 <p><b>img</b>: contains the image files used on the website</p>
 <p><b>js</b>: contains the JavaScript files used to add interactivity to the website</p>
@@ -33,4 +33,3 @@ This repository is licensed under the MIT License. See the LICENSE file for more
 
 <h1>Developers</h1>
 <h2><a href="https://github.com/Skyl1te">_Skyl1te</a></h2>
-
