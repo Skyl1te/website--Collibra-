@@ -1,0 +1,48 @@
+@import '_first-page.scss';
+@import '_second-page.scss';
+@import '_third-page.scss';
+@import '_fourth-page.scss';
+@import '_fiveth-page.scss';
+@import '_fiveth-page.scss';
+@import '_sixeth-page.scss';
+@import '_footer.scss';
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+	transition: all .3s linear;
+}
+
+a:hover {
+	opacity: .8;
+	color: #lightgreen;
+	cursor: pointer;
+	transition: all .3s linear;
+}
+
+button:hover {
+	opacity: .8;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.qqq {
+	width: 100%;
+	height: 300px;
+	background-color: #EFF2F3;
+}
+
+.scroll-page {
+  opacity: 0;
+  transition: opacity .5s linear;
+}

@@ -1,0 +1,49 @@
+.third-page {
+	position: relative;
+	height: 1525px;
+	width: 100%;
+	margin-top: 90px;
+	background-color: #002B40;
+
+	.up-content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-top: 200px;
+
+		.text {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: 360px;
+			font-family: 'Gothic A1';
+			color: #fff;
+			&__title {
+				font-size: 59px;
+				line-height: 61px;
+			}
+
+			&__connotation {
+				font-family: 'Amiri';
+				font-size: 18px;
+				line-height: 17px;
+			}
+
+			&__down-connotation {
+				font-size: 15px;
+				line-height: 24px;
+			}
+		}
+
+		img {
+			width: 535px;
+		}
+	}
+
+	.down-content {
+		img {
+			margin-top: 125px;
+			width: 100%;
+		}
+	}
+}

@@ -1,0 +1,53 @@
+.sixth-page {
+	position: relative;
+	height: 640px;
+	background-color: #DFE6E8;
+	.content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		&__img {
+			width: 48%;
+
+			 img {
+			 	position: absolute;
+			 	left: 0;
+			 	top: 30%;
+			 	width: 642px;
+				height: auto;
+			 }
+		}
+
+		&__text {
+			width: 38%;
+			margin-top: 270px;
+			font-family: 'Gothic A1';
+			
+			&-title {
+				font-size: 34px;
+				line-height: 40px;
+				color: #002B40;
+			}
+
+			&-connotation {
+				font-family: 'Amiri';
+				font-size: 18px;
+				line-height: 30px;
+				color: #002B40;
+
+				ul, li {
+					list-style: none;
+				}
+			}
+
+			button {
+				width: 177px;
+				height: 39px;
+				background: #72BF00;
+				border-radius: 0px;
+				border: 0;
+			}
+		}
+
+	}
+}

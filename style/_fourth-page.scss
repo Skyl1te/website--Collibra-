@@ -1,0 +1,53 @@
+.fourth-page {
+	position: relative;
+	height: 500px;
+	background-color: #EFF2F3;
+
+	.blocks {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 350px;
+		width: 100%;
+		.block {
+			display: flex;
+			flex-direction: column;
+			padding: 37px;
+			justify-content: space-between;
+			height: 100%;
+			width: 31%;
+			font-family: 'Gothic A1';
+			background-color: #fff;
+
+			&__title {
+				display: flex;
+				align-items: center;
+				width: 100%;
+
+				h2 {
+					font-size: 33px;
+					line-height: 40px;
+					color: #00755F;
+					padding-left: 20px;
+				}
+
+				img {
+					width: 48px;
+				}
+			}
+
+			&__connotation {
+				font-family: 'Amiri';
+				font-size: 20px;
+				line-height: 20px;
+				color: #002B40;
+			}
+
+			&__down-connotation {
+				font-size: 15px;
+				line-height: 24px;
+				color: #002B40;
+			}
+		}
+	}
+}

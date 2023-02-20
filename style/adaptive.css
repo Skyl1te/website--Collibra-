@@ -1,0 +1,311 @@
+@media (width <= 1280px) {
+	.second-page .up-content__img img {
+		width: 555px;
+		height: auto;
+	}
+
+	.fiveth-page .content__text-connotation {
+		font-size: 18px;
+	}
+}
+
+@media (width <= 1180px) {
+	.first-page__image {
+		width: 535px;
+		height: auto;
+	}
+
+	.fiveth-page .content__text-connotation {
+		font-size: 15px;
+	}
+
+	.second-page .up-content__img img {
+		width: 490px;
+		height: auto;
+	}
+
+	.fourth-page .blocks .block {
+		width: 48%;
+		margin-top: 38px;
+	}
+
+	.fourth-page .blocks {
+		flex-wrap: wrap;
+	}
+
+	.qqq {
+		height: 80px;
+	}
+
+	.fourth-page {
+		height: 865px;
+	}
+
+	.second-page .down-content .blocks .block {
+		width: 30%;
+		padding-right: 0;
+	}
+
+	.third-page .up-content img {
+		width: 465px;
+	}
+
+	.third-page .up-content .text__title {
+		font-size: 48px;
+		line-height: 60px;
+	}
+
+	.third-page .up-content .text__connotation {
+		font-size: 17px;
+		line-height: 30px;
+	}
+
+	.sixth-page .content__text {
+		margin-top: 220px;
+	}
+}
+
+@media (width <= 1024px) {
+	.first-page__image {
+		width: 460px;
+	}
+
+	.second-page .up-content__img img {
+		width: 400px;
+	}
+
+	.third-page {
+		height: 1420px;
+	}
+
+	.sixth-page .content__img img {
+		width: 520px;
+	}
+
+	.sixth-page .content__text {
+		margin-top: 190px;
+	}
+
+	.fiveth-page .content__text-connotation {
+		font-size: 14px;
+	}
+}
+
+@media (width <= 960px) {
+	.first-page__image, .second-page .up-content__img img {
+		display: none;
+	}
+
+	.sixth-page .content__text {
+		width: 50%;
+	}
+
+	.sixth-page .content__img img {
+		width: 460px;
+	}
+
+	.sixth-page .content__text {
+		margin-top: 175px;
+	}
+
+	.second-page .up-content__text {
+		width: 100%;
+	}
+
+	.second-page .up-content__text-up-title {
+		font-size: 18px;
+	}
+
+	.second-page .up-content__text-title {
+		font-size: 45px;
+	}
+
+	.second-page .up-content__text-connotation {
+		font-size: 24px;
+	}
+
+	.second-page .up-content__text-down-connotation {
+		font-size: 20px;
+	}
+
+	.second-page .down-content .blocks .block {
+		width: 42%;
+		margin-right: 30px;
+	}
+
+	.second-page .down-content .blocks {
+		flex-wrap: wrap;
+		margin-top: 20px;
+	}
+
+	.third-page {
+		margin-top: 250px;
+		height: 1055px;
+	}
+
+	.third-page .up-content {
+		padding-top: 75px;
+	}
+
+	.third-page .up-content img {
+		display: none;
+	}
+
+	.third-page .up-content .text__title {
+		font-size: 55px;
+	}
+
+	.third-page .up-content .text__connotation {
+		font-size: 23px;
+	}
+
+	.third-page .up-content .text__down-connotation {
+		font-size: 18px;
+		opacity: .85;
+	}
+
+	.fiveth-page .content__person-text-connotation {
+		font-size: 12px;
+	}
+
+	.fiveth-page .content__text-connotation {
+		line-height: 25px;
+	}
+
+}
+
+@media (width <= 860px) {
+	.sixth-page .content__img {
+		display: none;
+	}
+
+	.sixth-page .content__text {
+		width: 100%;
+	}
+
+	.sixth-page {
+		height: 480px;
+	}
+}
+
+@media (width <= 768px) {
+	.footer .up-content {
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.footer .up-content-nav {
+		padding: 0;
+	}
+
+	.footer .down-content-nav {
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.footer .down-content-nav li {
+		margin-top: 20px;
+	}
+
+	.third-page {
+		margin-top: 395px;
+	}
+
+	.second-page .down-content .blocks .block {
+		width: 78%;
+	}
+
+	.second-page .down-content .blocks {
+		zoom: 110%;
+	}
+
+	.second-page .up-content__text-title {
+		font-size: 40px;
+	}
+
+	.second-page .up-content__text {
+		zoom: 120%;
+	}
+
+	.second-page .up-content__text-connotation {
+		margin-top: 55px;
+	}
+
+	.second-page .down-content {
+		margin-top: 130px;
+	}
+
+	.third-page .up-content .text__title {
+		font-size: 60px;
+	}
+
+	.third-page .up-content .text__connotation {
+		font-size: 19px;
+	}
+
+	.fourth-page .blocks .block {
+		width: 100%;
+	}
+
+	.fourth-page {
+		height: 1230px;
+	}
+
+	.footer {
+		height: 450px;
+	}
+
+	.footer .up-content {
+		padding-top: 20px;
+	}
+
+	.footer__footer {
+		margin-top: 215px;
+	}
+}
+
+
+@media (width <= 425px) {
+	html {
+		width: 440px;
+	}
+
+	.second-page .up-content__text-title {
+		font-size: 30px;
+	}
+
+	.second-page .up-content__text-connotation {
+		font-size: 20px;
+	}
+
+	.third-page .up-content .text__title {
+		font-size: 52px;
+	}
+
+	.third-page .up-content .text__connotation {
+		font-size: 18px;
+	}
+
+	.fiveth-page .content {
+		flex-wrap: wrap;
+	}
+
+	.fiveth-page .content__img, .fiveth-page .content__text {
+		width: 100%;
+	}
+
+	.fiveth-page .content__img {
+		height: auto;
+		margin-top: 35px;
+	}
+
+	.fiveth-page {
+		height: 640px;
+	}
+}
+
+@media (width <= 375px) {
+	html {
+		width: 440px;
+	}
+}
